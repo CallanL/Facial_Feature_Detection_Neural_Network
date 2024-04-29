@@ -45,6 +45,9 @@ It is also interesting to note the discrepancy between recall and precision of t
 
 On new test images, as expected, the network was very good at detecting features such as sex and smiling, but less so at attractiveness. 
 
+![image](https://github.com/CallanL/Facial_Feature_Detection_Neural_Network/assets/154892367/06731770-80f2-4e9f-a72e-34607d9d3a57)
+
+
 # Improvements that could be made
 
 An easy way to increase the accuracy of the model is to remove the ambiguous classes and even out the spread of the dataset. This was not done in this case to showcase how a non-ideal dataset affects structure. Furthermore, more traits could be tested, and over-fitting could be further reduced with different model architectures and data augmentation which may increase its accuracy when trained over many epochs.
